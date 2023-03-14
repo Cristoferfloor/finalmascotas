@@ -1,0 +1,590 @@
+@import url("https://fonts.googleapis.com/css? family=Plus+Jakarta+Sans:400,300, 700, 500 Pacifico:400 Poppins :300 Roboto o:400, 700, 600, 800");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Plus+Jakarta+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border-color: aliceblue;
+}
+
+header {
+    background-color: #D5E5F5;
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    padding: 1% 0% 2%;
+    /*background-color: #D5E5F5;*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 120%;
+    color: #00214D;
+}
+
+nav li {
+    display: inline;
+}
+h1 {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #3781E3;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+button:hover{
+    border-color: #3781E3;
+
+}
+h2 {
+position: absolute;
+width: 417px;
+height: 111px;
+left: 167px;
+top: 328px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 150%;
+/* or 105px */
+
+
+/* Text */
+
+color: #00214D;
+}
+.desktop-6{
+  align-items: center;
+  background-color: var(--bg-2);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  overflow: hidden;
+  width: 1440px;
+}
+   
+
+
+ .hidden,
+ .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+ }
+
+ .title {
+    color: var(--text);
+    font-family: var(--font-family-plus_jakarta_sans);
+    font-size: var(--font-size-xxx1);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 72px;
+    margin-bottom: -13px;
+    margin-right: 19px;
+    margin-top: 138px;
+    min-height: 59px;
+    white-space: nowrap;
+    width: 377px;
+
+ }
+
+.overlap-group{
+    align-items: flex-end;
+    background-color : var(--bg-1);
+    border-radius : 20px;
+    display: flex;
+    flex-direction : column ;
+    gap: 52px;
+    margin-right : 72px;
+    margin-top: 53px;
+    min-height: 709px;
+    padding: 34px 69px;
+    width: 680px;
+}
+.overlap-group2{
+    align-items: flex-start ;
+    background-color : var(--white);
+    border-radius : 28px;
+    display: flex;
+    height: 83px;
+    min-width: 541px;
+    padding: 22px 41px;
+}
+
+.confirmar-contrasea{
+    letter-spacing : 0;
+    line-height : 36px;
+    white-space: nowrap;   
+}
+.overlap-group1{
+    align-items : flex-start;
+    background-color : var(--white);
+    border-radius : 20px;
+    display: flex;
+    height: 83px;
+    margin-top: 32px;
+    min-width: 541px;
+    padding: 22px 41px;
+
+}
+.nombre {
+    letter-spacing : 0;
+    line-height: 36px;
+    white-space: nowrap;
+}
+.frame-19{
+    align-items: center;
+    align-self: center;
+    background-color : #2bee99;
+    border-radius : 20px;
+    cursor: pointer;
+    display : flex;
+    gap: 18px;
+    height: 69px;
+    justify-content : center;
+     margin-left : 1px;
+    padding: 134px 64px 133px;
+    position: relative;
+    width: 459px;
+
+}
+
+.registrar {
+    color: var(--white) ;
+    font-family: var(--font-family-plus_jakarta_sans);
+    font-size: var(--font-size-m);
+    font-weight : 700;
+    letter-spacing : 2.4px;
+    line-height: 36px;
+    margin-bottom : -116px;
+    margin-top: -118px;
+    position : relative;
+    white-space: nowrap;
+    width: fit-content;
+
+}
+
+.overlap-group3{
+    background-color : var(--white) ;
+    border-radius : 28px;
+    height:83px;
+    position: relative;
+    width: 541px;
+
+}
+
+.rectangle-849{
+    background-color : var(--white) ;
+    border-radius : 28px;
+    height: 83px;
+    left: 0;
+    position : absolute;
+    top: 0;
+    width: 541px;
+}
+.ingrese-correo-electronico{
+    left: 41px;
+    letter-spacing : 0;
+    line-height: 36px;
+    position : absolute;
+    top: 24px;
+    white-space : nowrap;
+
+}
+.text {
+    align-self : flex-end;
+    color: var(--white);
+    font-family: var(--font-family-plus_jakarta_sans);
+    font-size: var(--font-size -s);
+    font-weight: 400;
+    letter-spacing : 0;
+    line-height: normal;
+    margin-right: -1879px;
+    margin-top: 339px;
+    min-height: 368px;
+    width: 968px;
+}
+:root{
+    --black: rgba(0, 0, 0, 1);
+    --lue-whale: rgba(0, 33, 77, 0.502);
+    --text: rgba(0, 33, 77, 1);
+    --royal-blue: rgba(55, 129, 227, 0.149);
+    --primary: rgba(55, 129, 227, 1);
+    --onyx-2: rgba(58, 58, 58, 0.749);
+    --onyx: rgba(58, 58, 58, 1);
+    --woody-brown:  rgba(68, 44, 46, 1);
+    --shamrock: rgba(87, 204, 153, 1);
+    --bismark: rgba(92, 113, 134, 1);
+    --bg-1:rgba(174, 206, 244, 1);
+    --tropical-blue: rgba(202, 222, 247, 1);
+    --bg-2: rgba(213, 229, 245, 1);
+    --solitude: rgba(232, 243, 255, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xs: 18px;
+    --font-size-g: 22px;
+    --font-size-m: 24px;
+    --font-size-l: 28px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 36px;
+    --font-size-xxxl: 48px;
+    --font-family-pacifico: "Pacifico";
+    --font-family-plus_iakarta_sans: "Plus JakartaSans";
+    --font-family-plus_jakarta_sans-semibold : "PlusJakarta Sans-SemiBo ld " ;
+    --font-family-poppins: "Poppins" ;
+    --font-family-poppins-regular: "Poppins-Regular";
+    --font-family-guicksand: "Quicksand";
+    --font-family-quicksand-bold: "Quicksand - Bold";
+    --font-family-quicksand-1ight: "Quicksand- Light ";
+    --font-family-quicksand-regular: "Quicksand-Regular ";
+    --font-family-roboto: "Roboto";
+
+
+}
+
+.guicksand-bold-blue-whale-22px{
+    color: var(--text) ;
+    font-family: var(--font-family-guicksand-bold);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+
+}
+.guicksand-1ight-blue-whale-18-7px{
+    color: var(--text);
+    font-family: var(--font-family-quicksand);
+    font-size: 18.72500e381469727px;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.poppins-1ight-onyx-18px{
+    color: var(--onyx-2);
+    font-family: var(--font-family-popppins);
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+    font-style : normal;
+
+}
+.plusjakartasans-normal-white-12px{
+    color: var(--white) ;
+font-family: var(--font-family-plus_jakarta_sans);
+font-size: 12px;
+font-weight: 400;
+font-style: normal;
+
+}
+
+.plusjakartasans-semi-bold-blue-whale-24px {
+color: var(--text);
+font-family: var(--font-family-plus_jakarta_sans);
+font-size: var(--font-size-m);
+font-weight: 600;
+font-style: normal;
+}
+
+.poppins-ight-onyx-28Px {
+    color: var(--onyx);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    font-weight: 300;
+    font-style: normal;
+
+}
+.plusjakartasans-medium-bismark-20px{
+    color: var(--bismark);
+    font-family: var(--font-family-plus_1akarta_sans);
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+.plusjakartasans-bold-blue-whale-40px {
+    color: var(--text);
+    font-family: var(--font-family-plus_1akarta_sans);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.quicksand-normal-blue-whale-18px{
+    color: var(--text);
+    font-family: var(--font-family-quicksand);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+
+}
+    
+.roboto-extra-bold-woody-brown-24px {
+    color: var(--woody-brown);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-m);
+    font-weight: 800;
+    font-style: normal;
+    
+}  
+
+.quicksand-light-blue-whale-18-7px{
+    color: var(--text);
+    font-family: var(--font-family-quicksand-light);
+    font-size: 18.725000381469727px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.plusjakartasans-bold-blue-whale-32px {
+color: var(--text);
+font-family: var(--font-family-plus_jakarte_sans);
+font-size: var(--font-size-xl);
+font-weight: 700;
+font-style: normal;
+}
+
+.poppins-normal-onyx-24px{
+color: var(--onyx-2);
+font-family: var(--font-family-poppins);
+font-size: var(--font-size-m);
+font-weight: 400;
+font-style: normal;
+}
+
+.plusjakartasans-normal-onyx-12-2Px{
+    color: var(--onyx);
+    font-family: var(--font-family-plus_jakarta_sans);
+    font-size: 12.179117282758789px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-light-onyx-24Px{
+    color: var(--onyx);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight : 300;
+    font-style: normal;
+
+}
+
+.plusjakartasans-bold-white-24px {
+color: var(--white);
+font-family: var(--font-family-plus_jakarta_sans);
+font-size: var(--font-size-m);
+font-weight: 700;
+font-style: normal;
+}
+
+.quicksand-regular-normal-blue-whale-18px {
+    color: var(--text);
+    font-family: var(--font-family-quicksand-regular);
+    font-size: var(--font-size-xs);
+    font-weight: 408;
+    font-style: normal;
+}
+.plusjakartasans-normal-blue-whale-24px-22{
+    color: var(--blue-whale);
+    font-family: var(--font-family-plus_jakarta_sans);
+    font-size: var(--font-size-m);
+    font-weight : 400;
+    font-style: normal;
+
+
+}
+
+.plusjakartasans-semi-bold-blue-whale-24px{
+    color: var (--text);
+    font-family: var(--font-family-plus_jakarte_sans-semibold);
+    font-size: var(--font-size-m);
+    font-weight: 600;
+    font-style : normal;
+
+}
+
+.quicksand-regular-normal-blue-whale-18-7px{
+    color: var(--text);
+    font-family: var(--font-family-quicksand-regular);
+    font-size: 18.725000381469727;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.plusjakartasans-medium-blue-whale-48px{
+    color: var(--text);
+    font-family: var(--font-family-plus_iakarta_sans);
+    font-size: var(--font-size-xxx1);
+    font-weight: 500;
+    font-style: normal;
+}
+.poppins-regular-normal-onyx-24Px{
+    color: var(--onyx-2);
+    font-family: var(--font-family-poppins-regular);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+ 
+}
+
+.plusjakartasans-medium-blue-whale-24px{
+    color: var(--text);
+    font-family: var(--font-family-plus_jakarta_sans );
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.plusjakartasans-medium-black-24px{
+    color: var(--black);
+    font-family: var(--font-family-plus_jakarta_sans );
+    font-size: var(--font-size-m);
+    font-weight: 508;
+    font-style: normal;
+}
+.plusjakartasans-medium-royal-blue-36px {
+    color: var(--primary);
+    font-family: var(--font-family-plus_jakarta_sans) ;
+    font-size: var(--font-size-xxl);
+    font-weight: 500;
+    font-style: normal;
+}   
+
+.plusjakartasans-bold-white-22px{
+    color: var(-white);
+    font-family : var(--font-family-plus_jakarta_sans);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+
+}
+   
+.plusjakartasans-medium-white-24Px{
+    color: var(--white);
+    font-family: var(--font-family-plus_jakarta_sans);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.plusjakartasans-bold-blue-whale-64px {
+    color: var(--text) ;
+    font-family: var(--font-family-plus_jakarta_sans) ;
+    font-size : 64px;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.quicksand-bold-blue-whale-22px{
+    color: var(--text) ;
+    font-family: var(--font-family-quicksand);
+    font-size: var(--font-size-s) ;
+    font-weight : 700;
+    font-style: normal;
+
+}
+   
+.plusjakartasens-bold-blue-whale-7epx {
+    color: var(--text);
+    font-family: var(--font-family-plus_jakarta_sans);
+    font-size: 70px;
+    font-weight : 700;
+    font-style: normal;
+}
+.plusjakartasans-medium-royal-blue-24px{
+    color: var(--primary);
+font-family: var(--font-family-plus_jakarta_sans);
+font-size: var(--font-size-m);
+font-weight: 500;
+font-style: normal;
+
+}
+
+.pacifico-normal-royal-blue-32px{
+    color: var(--primary);
+font-family: var(--font-family-Pacifico);
+font-size: var(--font-size-xl);
+font-weight: 400;
+font-style: normal;
+
+}
+
+.plusjakartasans-normal-blue-whale-24px2{
+    color: var(--text);
+font-family: var(--font-family-plus_jakarta_sans);
+font-size: var(--font-size-m);
+font-weight: 400;
+font-style: normal;
+
+}
+.quicksand-normal-blue-whale-18-7px {
+    color: var(--text);
+    font-family: var(--font-family-quicksand);
+    font-size: 18.725000381469727px;
+    font-weight : 488;
+    font-style: normal;
+}   
+.plusjakartasans-normal-onyx-24px{
+    color: var(--onyX);
+    font-family: var(--font-family-plus_jakarta_sans);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+
+}
+   
+   
+   
+
+
+
+ 
+   
+  
+     
+ 
+ 
+
+
+
+     
+   
+  
+
+ 
+
+ 
+
+
+
+
+
+
+  
+
+
+  

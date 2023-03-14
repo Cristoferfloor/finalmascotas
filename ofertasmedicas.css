@@ -1,0 +1,338 @@
+.ofertasmedicas-container {
+  min-height: 100vh;
+}
+.ofertasmedicas-ofertasmedicas {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: var(--dl-color-default-bg2);
+}
+.ofertasmedicas-text {
+  top: 1299px;
+  left: 2359px;
+  color: rgba(255, 255, 255, 1);
+  width: 960px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-frame39 {
+  top: 0px;
+  left: -45px;
+  width: 1485px;
+  height: 111px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.ofertasmedicas-frame5 {
+  top: 50px;
+  left: 93px;
+  width: 1319px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.ofertasmedicas-text02 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  font-size: 32px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Pacifico;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 333px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-frame4 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+}
+.ofertasmedicas-text04 {
+  color: var(--dl-color-default-text);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 64px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-text06 {
+  color: var(--dl-color-default-text);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 64px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-text08 {
+  color: var(--dl-color-default-text);
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 64px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-text10 {
+  color: var(--dl-color-default-text);
+  width: 241px;
+  height: auto;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-rectangle852 {
+  top: 271px;
+  left: 126px;
+  width: 302px;
+  height: 310px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.ofertasmedicas-rectangle854 {
+  top: 271px;
+  left: 1002px;
+  width: 302px;
+  height: 310px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.ofertasmedicas-text12 {
+  top: 603px;
+  left: 102px;
+  color: var(--dl-color-default-primary);
+  width: 368px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-text14 {
+  top: 606px;
+  left: 951px;
+  color: var(--dl-color-default-primary);
+  width: 404px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-text16 {
+  top: 645px;
+  left: 951px;
+  color: var(--dl-color-default-primary);
+  width: 404px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-text18 {
+  top: 640px;
+  left: 525px;
+  color: var(--dl-color-default-primary);
+  width: 404px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-text20 {
+  top: 640px;
+  left: 84px;
+  color: var(--dl-color-default-primary);
+  width: 404px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-text22 {
+  top: 603px;
+  left: 543px;
+  color: var(--dl-color-default-primary);
+  width: 353px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-confirmyourappoitment-button {
+  top: 832px;
+  left: 501px;
+  width: 423px;
+  height: 77px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 33, 77, 1);
+}
+.ofertasmedicas-text24 {
+  top: 850px;
+  left: 590px;
+  color: rgba(255, 255, 255, 1);
+  width: 246px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-text26 {
+  top: 150px;
+  left: 360px;
+  color: var(--dl-color-default-primary);
+  width: 719px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.ofertasmedicas-rectangle853 {
+  top: 271px;
+  left: 571px;
+  width: 302px;
+  height: 310px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
